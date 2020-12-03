@@ -1,6 +1,8 @@
 import React from "react";
 import { Cat } from "./pages/cat";
-
+import B1 from "./Images/B1.png";
+import K1 from "./Images/K1.png";
+import F1 from "./Images/F1.png";
 function App() {
   return (
     <div className="App">
@@ -8,15 +10,15 @@ function App() {
       <ul>
         <li>
           {" "}
-          <Cat name="Belila" word=" is the best cat" path="./Images/B1.png" />
+          <Cat name="Belila" word=" is the best cat" path={B1} />
         </li>
         <li>
           {" "}
-          <Cat name="Kitty" word=" is a street cat" path="./Images/K1.png" />
+          <Cat name="Kitty" word=" is a street cat" path={K1} />
         </li>
         <li>
           {" "}
-          <Cat name="Fankoosh" word=" has white paws" path="./Images/F1.png" />
+          <Cat name="Fankoosh" word=" has white paws" path={F1} />
         </li>
       </ul>
     </div>
